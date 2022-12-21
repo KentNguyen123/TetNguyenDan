@@ -2,6 +2,9 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+body{
+    background-color: azure;
+}
 .nav {
     color:white;
     background-image: linear-gradient(to left, rgb(62, 62, 227), pink);
@@ -53,12 +56,17 @@
     height: 50px;
 }
 
-.padding-30{
-    padding-top: 30px;
-    padding-bottom: 30px;
+.padding-10{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .navdes {
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+.center{
+    text-align: center;
+    color: blanchedalmond;
 }
