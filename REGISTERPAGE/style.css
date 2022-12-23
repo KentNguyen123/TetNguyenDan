@@ -1,0 +1,63 @@
+body{
+    background-image: url("./3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.box{
+    width: 300px;
+    background-color: aliceblue;
+    box-shadow: 8px 4px 12px 4px rgba(46, 11, 29, 0.21);
+    border-radius: 12px;
+    padding: 2.5rem;
+}
+
+.input-field{
+    padding: 6px 0px;
+}
+
+h1 {
+    text-align: center;
+}
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input{
+    width: 80%;
+    border:none;
+    border-bottom: 2px solid pink;
+    outline:none;
+    font-size: 15px;
+}
+
+button{
+    cursor:pointer;
+    width: 100%;
+    border: none;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(166, 249, 255, 1); 
+    padding: 5px 0px;
+}
+
+.input-field p {
+    font-style: italic;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color: rgba(166, 249, 255, 0.4) ;
+}
+

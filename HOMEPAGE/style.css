@@ -70,3 +70,18 @@ body{
     text-align: center;
     color: blanchedalmond;
 }
+
+p{
+    text-align: center;
+    font-style: oblique;
+}
+
+.left{
+        text-align: left;
+}
+
+.member-item{
+    display: flex;
+    flex-direction: column;
+}
+
