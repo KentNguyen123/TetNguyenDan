@@ -10,3 +10,7 @@ var form=document.getElementById("RegisterForm");
 function handleForm(event) {
     
 }
+
+function dieu_huong(){
+    location.assign("");
+}
