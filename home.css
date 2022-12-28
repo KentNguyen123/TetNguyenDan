@@ -85,3 +85,16 @@ p{
     flex-direction: column;
 }
 
+.slideshow{
+    width: auto;
+    height: 500px;
+    display: flex;
+}
+
+.picture{
+    border-radius: 1.4rem;
+    box-shadow: 8px 4px 12px 4px rgba(135, 128, 132, 0.21);
+}
+
+
+
