@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./random.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="./IMAGE/HINHTET.png">
+</head>
+<body>
+<!-- Start Content -->
+
+    <!--FOOTER-->
+    <div class="nav row">
+        <div class="column">
+            <div class="logo2"> 
+                <img src="./IMAGE/AVATAR.jpg" alt="logo" class="logo">
+            </div>
+        </div>
+
+        <!--NAV-->
+        <div class="navdes">
+            <a href="./home.html" class="navbar-item navbar-button">Trang chủ</a>
+            <a href="./noidung.html" class="navbar-item navbar-button">Khái quát</a>
+            <a href="./random.html" class="navbar-item navbar-button">Random</a>
+            <a href="#" class="navbar-item navbar-button">Contact</a>
+        </div>
+    </div>
+
+    <!--RANDOM-->
+    <div class="random">
+        <button onclick="document.getElementById('demo').innerHTML = getRndInteger(1,5)">Bấm vào đây</button>
+        <p id="demo"></p>
+    </div>
+
+    
+</body>
+    <script src="./random.js"></script>
+</html>
