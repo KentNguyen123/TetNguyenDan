@@ -14,7 +14,7 @@
     <div class="container">
         <div class="box">
             <h1>Đăng nhập</h1>
-            <form>
+            <form id="formlogin" action="#">
                 <div class="input-field">
                     <h4>Email</h4>
                     <input type="text" placeholder="Email của bạn" id="Email">
@@ -24,9 +24,12 @@
                     <h4>Password</h4>
                     <input type="password" placeholder="Password của bạn" id="Pass">
                 </div> 
+                <div id="validate-text">
+
+                </div>
                 <br>
                 <div class="input-field">
-                    <button onclick="Dangnhap()"><a href="./home.html">Đăng nhập</a></button>
+                    <button type="submit">Đăng Nhập</button>
                     <p> (*) Quên mật khẩu ?</p>
                 </div>
             </form>
