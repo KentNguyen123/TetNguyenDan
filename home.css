@@ -71,7 +71,7 @@ body{
     color: blanchedalmond;
 }
 
-p{
+h3{
     text-align: center;
     font-style: oblique;
 }
@@ -94,6 +94,12 @@ p{
 .picture{
     border-radius: 1.4rem;
     box-shadow: 8px 4px 12px 4px rgba(135, 128, 132, 0.21);
+}
+
+.bullet{
+  padding-left: 30%;
+  padding-right: 30%;
+  size: 100px;
 }
 
 
