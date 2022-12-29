@@ -59,8 +59,29 @@ body{
 }
 
 .random{
-    padding-left: 30%;
+    padding-left: 40%;
     width: 1000px;
     height: 400px;
     margin-top: 3%;
+}
+
+p{
+    color: blanchedalmond;
+    font-size:  50px ;
+}
+
+.box{
+    width: 100px;
+    background-image: linear-gradient(to left,#3C3B3F, #605C3C);
+    box-shadow: 8px 4px 12px 4px rgba(46, 11, 29, 0.21);
+    border-radius: 12px;
+    padding: 2.5rem;
+    margin-left: 5%;
+    margin-right: 3%;
+}
+
+.costumn{
+    padding-top: 3%;
+    color: black;
+    text-align: left
 }
