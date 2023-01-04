@@ -100,7 +100,7 @@
 
         <div class="column box padding-10">
             <div class="column">
-                    <audio controls autoplay volume=0.2 >
+                    <audio controls autoplay id="music">
                         <source src="./NHACXUAN.mp3">
                    </audio>    
             </div>
@@ -110,4 +110,8 @@
     
 </body>
     <script src="./home.js"></script>
+    <script>
+        let audio=document.getElementById("music");
+        audio.volume=0.1;
+    </script>
 </html>
